@@ -1,3 +1,10 @@
+#Author:kangganpeng
+#
+#StudentID:14130140377
+#
+#Email:1159838847@qq.com
+
+
 def MeanValues(weight,values,number):
     res = [-1.0 for i in range(number)]
     for i in range(number):

@@ -1,3 +1,11 @@
+
+#Author:kangganpeng
+#
+#StudentID:14130140377
+#
+#Email:1159838847@qq.com
+
+
 import sys
 
 jobs = [15,8,3,10]

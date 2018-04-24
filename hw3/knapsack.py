@@ -1,5 +1,11 @@
+#Author:kangganpeng
+#
+#StudentID:14130140377
+#
+#Email:1159838847@qq.com
+
 def knapsack(number,capacity,weight,values):
-    res=[[-1 for j in range(capacity+1)] for i in range(number+1)]
+    res=[[0 for j in range(capacity+1)] for i in range(number+1)]
     for j in range(capacity+1):
         res[0][j]=0
     for i in range(1,number+1):
@@ -19,7 +25,7 @@ def show(number,capacity,weight,res):
             j-=weight[i-1]
     for i in range(number):
         if x[i] == True:
-            print 'No ',i
+            print 'No ',i+1
 
 number=5
 capacity=100
