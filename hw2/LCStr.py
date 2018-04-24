@@ -1,8 +1,8 @@
-#Author：康赣鹏
+#Author:DanielKGP
 #
-#StudentID：14130140377
+#StudentID:14130140377
 #
-#Email：1159838847@qq.com
+#Email:1159838847@qq.com
 
 def LCStr(a,b):
     n = len(a)
